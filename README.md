@@ -11,14 +11,14 @@ Install the following Packages:
 3) npm install react-use-clipboard -> A React Hook that provides copy to clipboard functionality, simplifies the process of integrating clipboard functionality into React applications.
 
 
-# Technology / Language Used :
+# Technology / Language Used 
 1) HTML
 2) CSS
 3) JAVASCRIPT
 4) REACT.JS
 
 
-# Overview :
+# Overview 
 
 
 
