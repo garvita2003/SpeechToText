@@ -38,17 +38,6 @@
 | **JavaScript** | Application logic and event handling |
 | **Web Speech API** | Browser-native speech recognition |
 
-**Language Composition:**
-- JavaScript: 47.6%
-- CSS: 42.9%
-- HTML: 9.5%
-
-**Dependencies:**
-- `react-speech-recognition` - React hook for speech recognition
-- `react-use-clipboard` - React hook for clipboard functionality
-- `react-dom` - React DOM rendering
-- `react-scripts` - Build and development scripts
-
 ---
 
 ## 🎓 Skills Gained
@@ -133,88 +122,7 @@ npm start
 # Application will open at http://localhost:3000
 ```
 
-### Available Scripts:
-
-```bash
-# Start development server
-npm start
-
-# Build for production
-npm run build
-
-# Run tests
-npm test
-
-# Eject configuration (not reversible)
-npm run eject
-```
-
----
-
-## 📋 How to Use
-
-1. **Open the Application:**
-   - Navigate to `http://localhost:3000` after running `npm start`
-
-2. **Start Listening:**
-   - Click the "Start Listening 🔊" button to begin speech recognition
-   - Allow microphone access if prompted by the browser
-
-3. **Speak:**
-   - Speak clearly into your microphone
-   - Your speech will be converted to text in real-time in the text area
-
-4. **Copy Text:**
-   - Click the "Copy to Clipboard 📝" button to copy the recognized text
-   - A confirmation message "Copied! 👍" will appear
-
-5. **Stop Listening:**
-   - Click "Stop Listening 🔇" to end the speech recognition session
-
-6. **Clear Text:**
-   - Refresh the browser or reload the page to clear all text
-
----
-
-## ⚠️ Browser Compatibility
-
-**Supported Browsers:**
-- ✅ Chrome/Chromium (Full support)
-- ✅ Edge (Full support)
-- ✅ Firefox (Full support)
-- ✅ Safari (Full support)
-
-**Note:** The application requires microphone access and modern Web Speech API support. Some older browsers may not have full support for speech recognition.
-
----
-
-## 🎤 Speech Recognition Settings
-
-**Current Configuration:**
-- **Language:** English (India) - 'en-IN'
-- **Mode:** Continuous listening
-- **Output:** Real-time text transcription
-
-You can modify the language and settings in `src/App.js` line 15:
-```javascript
-const startListening = () => SpeechRecognition.startListening({ 
-  continuous: true, 
-  language: 'en-IN'  // Change this to your preferred language code
-});
-```
-
----
-
-## 🔒 Permissions
+### 🔒 Permissions
 
 The application requires the following browser permissions:
 - **Microphone Access:** Required for speech recognition to function
-
----
-
-## 📝 Notes
-
-- This application uses the native browser Web Speech API
-- Internet connection may be required depending on the browser implementation
-- Speech recognition accuracy may vary based on audio quality and background noise
-- The text area stores the transcript during the session only
